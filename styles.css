@@ -81,8 +81,7 @@ button {
    width: fit-content;
    padding: 1rem 2rem;
    border-radius: 5rem;
-   border: 0;
-   
+   border: 0.1rem solid white;
 }
 
 .sedan > button {
@@ -95,6 +94,11 @@ button {
 
 .luxury > button {
     color: var(--card-3-clr)
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
 }
 
 @media (min-width: 600px) {
